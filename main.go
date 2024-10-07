@@ -33,4 +33,20 @@ func main() {
 
 	fmt.Println(inisialisasi)
 
+	var (
+		firstName = "Muhammad Sayuti"
+		lastName  = "Akbar"
+		angkaFav  = 7
+	)
+
+	fmt.Println(firstName + " " + lastName)
+	fmt.Println(angkaFav)
+
+	//constant
+
+	const consFirstName string = "Cons Akbar"
+	const consLastName = "Cons Sayuti"
+	fmt.Println(consFirstName)
+	fmt.Println(consLastName)
+
 }
