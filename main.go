@@ -18,4 +18,19 @@ func main() {
 	fmt.Println(len("Hello World"))
 	fmt.Println(("Hello World"[1]))
 
+	//variabel
+	var name string
+	name = "Akbar"
+	fmt.Println(name)
+
+	name = "Yayat"
+	fmt.Println(name)
+
+	var iniString = "ini string"
+	fmt.Println(iniString)
+
+	inisialisasi := "hasil inisialisasi"
+
+	fmt.Println(inisialisasi)
+
 }
