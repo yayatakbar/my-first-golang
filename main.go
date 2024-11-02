@@ -49,4 +49,14 @@ func main() {
 	fmt.Println(consFirstName)
 	fmt.Println(consLastName)
 
+	const (
+		nameCons = "halo"
+		lastCons = "last cons"
+		number   = 2
+	)
+
+	fmt.Println(nameCons)
+	fmt.Println(lastCons)
+	fmt.Println(number)
+
 }
